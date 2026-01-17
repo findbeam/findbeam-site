@@ -84,8 +84,8 @@ No query strings. No dynamic routing. No framework lock-in.
 
 - Hosting: [Cloudflare Pages](https://pages.cloudflare.com/ "Build Fast Pages Quickly with Cloudflare Infrastructure") 
 
-- Edge APIs: Cloudflare Workers (ratings, lightweight APIs)
-- Styling: Tailwind CSS (CDN or prebuilt CSS)
+- Edge APIs: [Cloudflare Workers](https://workers.cloudflare.com/ "Build Serverless Agents Quickly & Deploy") (ratings, lightweight APIs)
+- Styling:    [Tailwind CSS](https://tailwindcss.com/ "Modern Rapid CSS Framework for Fast Websites") (CDN or prebuilt CSS)
 - Analytics: [Umami](https://umami.is/ "Privacy Friendly Lightweight Analytics") (cookie-less, privacy-friendly) 
 - Consent: Minimal / lightweight consent banner (optional)
 - SEO: Manual metadata + sitemap.xml
