@@ -98,27 +98,18 @@ No backend server required.
 
 ## 🔒 Privacy & Data Policy
 
-No personal data collection
+- No personal data collection
+- No health data stored or transmitted
+- No cookies for analytics
+- No Google Analytics
+- No Google Tag Manager
+- No fingerprinting
 
-No health data stored or transmitted
+All calculations happen inside the user’s browser. Designed to comply with:
 
-No cookies for analytics
-
-No Google Analytics
-
-No Google Tag Manager
-
-No fingerprinting
-
-All calculations happen inside the user’s browser.
-
-Designed to comply with:
-
-GDPR (EU)
-
-CCPA (California)
-
-Global privacy-first standards
+- GDPR (EU)
+- CCPA (California)
+- Global privacy-first standards
 
 ⚡ Performance Philosophy
 
