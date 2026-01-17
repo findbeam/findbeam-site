@@ -1,37 +1,77 @@
-# FindBeam ⚡  
-Privacy-First Edge Utility Platform
+# FindBeam ⚡
 
-FindBeam is a high-performance, privacy-focused collection of browser-based utility tools designed for developers, creators, and professionals.
+A Privacy-First Online Tools Hub
 
-All tools run **entirely on the client side or at the edge**, with **zero data retention** and **no invasive tracking**.
+FindBeam is a high-performance, privacy-focused collection of browser-based tools built with **pure HTML, CSS, and Vanilla JavaScript**, designed to run entirely on the client side.
 
----
+The platform is optimized for **speed, SEO, scalability, and zero data collection**, hosted on **Cloudflare Pages** and enhanced with **Cloudflare Workers** where necessary.
 
-## 🌍 Live Website
-👉 https://findbeam.com
+🌐 Live site: https://findbeam.com
 
 ---
 
 ## 🚀 Core Principles
 
-- **Privacy First** – No user data is stored
-- **Edge Native** – Built for Cloudflare Pages & Workers
-- **Zero Tracking by Default** – No Google Analytics, no cookies
-- **Fast by Design** – Static HTML + CDN = instant load
-- **SEO Optimized** – Clean URLs, sitemaps, structured metadata
+- ⚡ Ultra-fast (static + edge delivery)
+- 🔐 Privacy-first (no user data stored)
+- 📈 SEO-optimized (clean URLs, schema, sitemaps)
+- 🧠 Client-side computation
+- 💸 $0 infrastructure cost (Cloudflare free tier)
+- 🔁 Highly reusable structure for 100+ tools
 
 ---
 
-## 🧰 Available Tools
+## 🧰 Available Tools (Growing)
 
-- Base64 Encode / Decode  
-- BMI Calculator (Adult & Child Percentile)  
-- Hash Generators (MD5, SHA-256, SHA-512)  
-- Minifiers (HTML, CSS, JS)  
-- Password Generator  
-- Word Counter  
-- IP Lookup  
-- And more…
+- BMI Calculator (Adult)
+- Child BMI & Percentile Calculator
+- Base64 Encoder / Decoder
+- CSS Minifier
+- JavaScript Minifier
+- HTML Minifier
+- Hash Generators (MD5, SHA-256, SHA-512)
+- IP Lookup
+- Word Counter
+- Password Generator
+- Lorem Ipsum Generator
+- Speed Test Tools
 
-Each tool lives in its own folder with an `index.html`, enabling clean URLs like:
+Each tool is accessible via clean URLs like:
 
+``` Use in your Markdown file.
+/bmi-calculator/
+/bmi-calculator-child/
+/base64-encode/
+/css-minifier/
+```
+No query strings. No dynamic routing. No framework lock-in.
+
+---
+
+## 📁 Project Structure
+
+```
+/
+├── index.html
+├── about/
+│   └── index.html
+├── privacy/
+│   └── index.html
+├── terms/
+│   └── index.html
+├── bmi-calculator/
+│   └── index.html
+├── bmi-calculator-child/
+│   └── index.html
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   ├── js/
+│   │   └── common.js
+│   └── images/
+├── robots.txt
+├── sitemap.xml
+├── llms.txt
+└── 404.html
+
+```
