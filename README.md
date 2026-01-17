@@ -82,13 +82,14 @@ No query strings. No dynamic routing. No framework lock-in.
 
 ## 🧱 Technology Stack
 
-- Hosting: Cloudflare Pages
+- Hosting: [Cloudflare Pages](https://pages.cloudflare.com/ "Build Fast Pages Quickly with Cloudflare Infrastructure") 
+
 - Edge APIs: Cloudflare Workers (ratings, lightweight APIs)
 - Styling: Tailwind CSS (CDN or prebuilt CSS)
-- Analytics: Umami (cookie-less, privacy-friendly)
+- Analytics: [Umami](https://umami.is/ "Privacy Friendly Lightweight Analytics") (cookie-less, privacy-friendly) 
 - Consent: Minimal / lightweight consent banner (optional)
 - SEO: Manual metadata + sitemap.xml
-- Version Control: GitHub
+- Version Control: [Github](https://github.com/ "Best Version Control and Repository")
 
 No Node.js required.
 No npm commands required.
@@ -111,125 +112,89 @@ All calculations happen inside the user’s browser. Designed to comply with:
 - CCPA (California)
 - Global privacy-first standards
 
-⚡ Performance Philosophy
+## ⚡ Performance Philosophy
 
-Static HTML = instant load
-
-Shared CSS & JS across tools
-
-Zero server-side rendering
-
-Cloudflare global edge caching
-
-Minimal JavaScript execution
+- Static HTML = instant load
+- Shared CSS & JS across tools
+- Zero server-side rendering
+- Cloudflare global edge caching
+- Minimal JavaScript execution
 
 This architecture easily supports:
 
-100+ tools
+- 100+ tools
+- High traffic spikes
+- $0 hosting cost (Cloudflare Free tier)
 
-High traffic spikes
-
-$0 hosting cost (Cloudflare Free tier)
-
-🔁 Reusability Strategy
+## 🔁 Reusability Strategy
 
 To avoid duplication (WordPress-style thinking, without WordPress):
 
-Shared CSS → /assets/css/main.css
-
-Shared JS → /assets/js/common.js
-
-Reusable header/footer copied across pages
-
-Same layout system across all tools
+- Shared CSS → /assets/css/main.css
+- Shared JS → /assets/js/common.js
+- Reusable header/footer copied across pages
+- Same layout system across all tools
 
 Future-ready upgrades:
 
-Cloudflare Workers HTML injection
+- Cloudflare Workers HTML injection
+- Build-time partials (optional later)
 
-Build-time partials (optional later)
+## 📊 Analytics (Recommended)
 
-📊 Analytics (Recommended)
+FindBeam uses Umami instead of GA/GTM:
 
-FindBeam uses Umami Analytics instead of GA/GTM:
+- Lightweight
+- Open-source
+- Cookie-less
+- GDPR compliant
+- Free (self-hosted or free tiers)
+- Works perfectly with Cloudflare Pages
 
-Lightweight
+It Tracks:
 
-Open-source
+- Page views
+- Tool popularity
+- Referrers
+- Device types
 
-Cookie-less
-
-GDPR compliant
-
-Free (self-hosted or free tiers)
-
-Works perfectly with Cloudflare Pages
-
-Tracks:
-
-Page views
-
-Tool popularity
-
-Referrers
-
-Device types
-
-💰 Monetization (Future-Ready)
+## 💰 Monetization (Future-Ready)
 
 Optional monetization paths:
 
-Contextual affiliate links (hosting, SaaS, dev tools)
+- Contextual affiliate links (hosting, SaaS, dev tools)
+- Non-intrusive ads (privacy-friendly networks)
+- Sponsored tools (clearly labeled)
+- Premium API endpoints (optional)
+- No dark UX. No tracking abuse.
 
-Non-intrusive ads (privacy-friendly networks)
+## 🚀 Deployment Workflow
 
-Sponsored tools (clearly labeled)
+- Code lives in GitHub
+- Cloudflare Pages connects to the repo
+- Every git push auto-deploys
+- Custom domain → findbeam.com
+- HTTPS, CDN & caching handled automatically
 
-Premium API endpoints (optional)
+## 🛡️ Security
 
-No dark UX. No tracking abuse.
+- No backend database
+- No authentication surface
+- Cloudflare edge protection
+- Optional Cloudflare Turnstile for abuse prevention
+- Minimal third-party scripts
 
-🚀 Deployment Workflow
+## 📜 License
 
-Code lives in GitHub
+This project is licensed under the MIT License. You are free to:
 
-Cloudflare Pages connects to the repo
+- Use
+- Modify
+- Distribute
+- Commercialize
+- With attribution.
 
-Every git push auto-deploys
-
-Custom domain → findbeam.com
-
-HTTPS, CDN & caching handled automatically
-
-🛡️ Security
-
-No backend database
-
-No authentication surface
-
-Cloudflare edge protection
-
-Optional Cloudflare Turnstile for abuse prevention
-
-Minimal third-party scripts
-
-📜 License
-
-This project is licensed under the MIT License.
-
-You are free to:
-
-Use
-
-Modify
-
-Distribute
-
-Commercialize
-
-With attribution.
-
-❤️ Credits
+## ❤️ Credits
 
 Built with care in Dhaka, Bangladesh 🇧🇩
 Powered by open web standards and Cloudflare’s global edge network.
