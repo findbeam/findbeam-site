@@ -1,19 +1,22 @@
-# OS / Editor noise
+# OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
 
 # Logs
 *.log
 error_log
 
-# Hosting leftovers
-.htaccess
-bk/
-temp/
+# Environment
+.env
 
-# Node / build (future-proof, even if unused)
+# Editor
+.vscode/
+.idea/
+
+# Build artifacts (future-proof)
 node_modules/
 dist/
 .cache/
+
+# Hosting leftovers
+.htaccess
