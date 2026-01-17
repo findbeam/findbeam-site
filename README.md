@@ -24,7 +24,6 @@ The platform is optimized for **speed, SEO, scalability, and zero data collectio
 ## 🧰 Available Tools (Growing)
 
 - BMI Calculator (Adult)
-- Child BMI & Percentile Calculator
 - Base64 Encoder / Decoder
 - CSS Minifier
 - JavaScript Minifier
@@ -60,8 +59,6 @@ No query strings. No dynamic routing. No framework lock-in.
 ├── terms/
 │   └── index.html
 ├── bmi-calculator/
-│   └── index.html
-├── bmi-calculator-child/
 │   └── index.html
 ├── assets/
 │   ├── css/
