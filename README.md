@@ -75,7 +75,7 @@ No query strings. No dynamic routing. No framework lock-in.
 └── 404.html
 
 ```
-✅ Each folder maps directly to a public URL
+✅ Each folder maps directly to a public URL \
 ✅ No /public, /dist, or /build in URLs
 
 ---
@@ -130,8 +130,8 @@ This architecture easily supports:
 
 To avoid duplication (WordPress-style thinking, without WordPress):
 
-- Shared CSS → /assets/css/main.css
-- Shared JS → /assets/js/common.js
+- Shared CSS → ```/assets/css/main.css```
+- Shared JS → ```/assets/js/common.js```
 - Reusable header/footer copied across pages
 - Same layout system across all tools
 
